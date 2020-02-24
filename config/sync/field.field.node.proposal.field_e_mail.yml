@@ -1,0 +1,19 @@
+uuid: cd4dccfe-4152-48d2-92bc-cc11c4e514e9
+langcode: da
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_e_mail
+    - node.type.proposal
+id: node.proposal.field_e_mail
+field_name: field_e_mail
+entity_type: node
+bundle: proposal
+label: E-mail
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email

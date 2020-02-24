@@ -1,0 +1,55 @@
+uuid: a9cbca6f-4eb7-44f7-b6bd-b5c673309047
+langcode: da
+status: true
+dependencies:
+  config:
+    - field.field.node.proposal.field_description
+    - field.field.node.proposal.field_e_mail
+    - field.field.node.proposal.field_location
+    - field.field.node.proposal.field_name
+    - node.type.proposal
+  module:
+    - geolocation
+    - text
+    - user
+id: node.proposal.default
+targetEntityType: node
+bundle: proposal
+mode: default
+content:
+  field_description:
+    weight: 103
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_e_mail:
+    weight: 105
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_location:
+    weight: 102
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: geolocation_latlng
+    region: content
+  field_name:
+    weight: 104
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true

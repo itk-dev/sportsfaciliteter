@@ -1,0 +1,29 @@
+uuid: 38dcfffd-4d64-467f-b6b3-01ca1f589e61
+langcode: da
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.proposal.field_description
+    - field.field.node.proposal.field_e_mail
+    - field.field.node.proposal.field_location
+    - field.field.node.proposal.field_name
+    - node.type.proposal
+  module:
+    - user
+id: node.proposal.teaser
+targetEntityType: node
+bundle: proposal
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_description: true
+  field_e_mail: true
+  field_location: true
+  field_name: true
+  langcode: true
