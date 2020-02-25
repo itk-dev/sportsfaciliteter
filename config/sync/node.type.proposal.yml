@@ -1,4 +1,4 @@
-uuid: 134e1c36-fd2e-494d-ad92-b8a8c499b115
+uuid: c790e9fa-1913-4f92-ba4f-da528d64a95c
 langcode: da
 status: true
 dependencies:
@@ -13,6 +13,6 @@ name: Forslag
 type: proposal
 description: ''
 help: ''
-new_revision: true
-preview_mode: 1
+new_revision: false
+preview_mode: 0
 display_submitted: true

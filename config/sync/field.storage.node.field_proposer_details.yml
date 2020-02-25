@@ -1,11 +1,11 @@
-uuid: 35773679-b1e6-4fdd-8d77-30253cc4aa82
+uuid: 3bddca1c-a14b-43aa-8df5-2efd22f33483
 langcode: da
 status: true
 dependencies:
   module:
     - node
-id: node.field_name
-field_name: field_name
+id: node.field_proposer_details
+field_name: field_proposer_details
 entity_type: node
 type: string
 settings:

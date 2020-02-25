@@ -1,15 +1,15 @@
-uuid: 5b15b0ce-d70e-4897-b142-e7f397d5ac22
+uuid: 6bf481d2-8f0b-42b6-a2d3-bb080e87d776
 langcode: da
 status: true
 dependencies:
   config:
-    - field.storage.node.field_name
+    - field.storage.node.field_proposer_details
     - node.type.proposal
-id: node.proposal.field_name
-field_name: field_name
+id: node.proposal.field_proposer_details
+field_name: field_proposer_details
 entity_type: node
 bundle: proposal
-label: 'Dit navn'
+label: 'Forening eller gruppering'
 description: ''
 required: false
 translatable: false
