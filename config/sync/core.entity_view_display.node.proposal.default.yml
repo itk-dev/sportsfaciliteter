@@ -3,7 +3,6 @@ langcode: da
 status: true
 dependencies:
   config:
-    - field.field.node.proposal.field_description
     - field.field.node.proposal.field_email
     - field.field.node.proposal.field_location
     - field.field.node.proposal.field_name
@@ -14,20 +13,12 @@ dependencies:
   module:
     - geolocation
     - options
-    - text
     - user
 id: node.proposal.default
 targetEntityType: node
 bundle: proposal
 mode: default
 content:
-  field_description:
-    weight: 102
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    type: text_default
-    region: content
   field_email:
     weight: 106
     label: above

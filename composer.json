@@ -23,7 +23,6 @@
         "drupal/conditional_fields": "^1.0",
         "drupal/core-composer-scaffold": "^8.8",
         "drupal/core-recommended": "^8.8",
-        "drupal/devel": "~2.0",
         "drupal/geolocation": "^3.0",
         "drush/drush": "^10.2"
     },

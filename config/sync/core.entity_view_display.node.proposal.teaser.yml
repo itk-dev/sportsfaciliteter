@@ -4,7 +4,6 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
-    - field.field.node.proposal.field_description
     - field.field.node.proposal.field_email
     - field.field.node.proposal.field_location
     - field.field.node.proposal.field_name
@@ -25,7 +24,6 @@ content:
     third_party_settings: {  }
     region: content
 hidden:
-  field_description: true
   field_email: true
   field_location: true
   field_name: true
