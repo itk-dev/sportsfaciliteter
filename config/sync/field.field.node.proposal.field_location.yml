@@ -1,0 +1,21 @@
+uuid: 8a9eed85-7c94-4a9e-a51e-fab241f6e3db
+langcode: da
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_location
+    - node.type.proposal
+  module:
+    - geolocation
+id: node.proposal.field_location
+field_name: field_location
+entity_type: node
+bundle: proposal
+label: Lokation
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: geolocation

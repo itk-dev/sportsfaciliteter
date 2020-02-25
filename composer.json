@@ -15,15 +15,14 @@
         }
     ],
     "require": {
-        "cweagans/composer-patches": "~1.0",
         "composer/installers": "^1.2",
+        "cweagans/composer-patches": "~1.0",
         "drupal/bootstrap": "^3.21",
         "drupal/bootstrap_layouts": "^5.1",
         "drupal/core-composer-scaffold": "^8.8",
-        "drupal/core-project-message": "^8.8",
         "drupal/core-recommended": "^8.8",
-        "drupal/drush": "^6.0@RC",
-        "drupal/geolocation": "2.x-dev"
+        "drupal/geolocation": "2.x-dev",
+        "drush/drush": "^10.2"
     },
     "require-dev": {
     },
