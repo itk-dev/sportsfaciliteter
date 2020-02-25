@@ -1,15 +1,15 @@
-uuid: cd4dccfe-4152-48d2-92bc-cc11c4e514e9
+uuid: af05fa97-5540-4d61-97ef-86c0cc32ee23
 langcode: da
 status: true
 dependencies:
   config:
-    - field.storage.node.field_e_mail
+    - field.storage.node.field_email
     - node.type.proposal
-id: node.proposal.field_e_mail
-field_name: field_e_mail
+id: node.proposal.field_email
+field_name: field_email
 entity_type: node
 bundle: proposal
-label: E-mail
+label: 'Din e-mailadresse'
 description: ''
 required: false
 translatable: false

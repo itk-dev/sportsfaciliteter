@@ -1,16 +1,15 @@
-uuid: cb36a0ed-7bb1-4983-9b37-d8fa6275366d
+uuid: b5a2952b-5d42-4f09-acd9-ad260a513467
 langcode: da
 status: true
 dependencies:
   module:
-    - geolocation
     - node
-id: node.field_location
-field_name: field_location
+id: node.field_email
+field_name: field_email
 entity_type: node
-type: geolocation
+type: email
 settings: {  }
-module: geolocation
+module: core
 locked: false
 cardinality: 1
 translatable: true

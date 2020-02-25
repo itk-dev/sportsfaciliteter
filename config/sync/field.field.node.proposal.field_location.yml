@@ -1,4 +1,4 @@
-uuid: 8a9eed85-7c94-4a9e-a51e-fab241f6e3db
+uuid: c6fc0f4a-1d4f-4820-8b67-b5cd741f94d8
 langcode: da
 status: true
 dependencies:
@@ -11,9 +11,9 @@ id: node.proposal.field_location
 field_name: field_location
 entity_type: node
 bundle: proposal
-label: Lokation
+label: 'Hvor skal faciliteten placeres?'
 description: ''
-required: false
+required: true
 translatable: false
 default_value: {  }
 default_value_callback: ''

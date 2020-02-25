@@ -17,11 +17,14 @@
     "require": {
         "composer/installers": "^1.2",
         "cweagans/composer-patches": "~1.0",
+        "drupal/address": "~1.0",
         "drupal/bootstrap": "^3.21",
         "drupal/bootstrap_layouts": "^5.1",
+        "drupal/conditional_fields": "^1.0",
         "drupal/core-composer-scaffold": "^8.8",
         "drupal/core-recommended": "^8.8",
-        "drupal/geolocation": "2.x-dev",
+        "drupal/devel": "~2.0",
+        "drupal/geolocation": "^3.0",
         "drush/drush": "^10.2"
     },
     "require-dev": {
@@ -71,7 +74,7 @@
         },
         "patches": {
             "drupal/geolocation": {
-                "An option to hide Lan/Lot text fields": "https://www.drupal.org/files/issues/2020-01-11/3098688-2-hide-widget-textfields.patch"
+                "An option to hide Lan/Lot text fields": "https://www.drupal.org/files/issues/2020-02-14/geolocation-hide_text_fields-3113703-2-D8.patch"
             }
         },
         "enable-patching": true

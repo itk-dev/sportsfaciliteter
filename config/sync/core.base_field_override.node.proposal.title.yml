@@ -1,18 +1,17 @@
-uuid: 5b15b0ce-d70e-4897-b142-e7f397d5ac22
+uuid: 32bf6b63-dbf1-4e32-ab17-d886868a73be
 langcode: da
 status: true
 dependencies:
   config:
-    - field.storage.node.field_name
     - node.type.proposal
-id: node.proposal.field_name
-field_name: field_name
+id: node.proposal.title
+field_name: title
 entity_type: node
 bundle: proposal
-label: 'Dit navn'
+label: 'Hvilken facilitet mangler du?'
 description: ''
-required: false
-translatable: false
+required: true
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings: {  }
