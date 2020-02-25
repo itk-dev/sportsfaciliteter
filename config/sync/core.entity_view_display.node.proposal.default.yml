@@ -22,21 +22,21 @@ bundle: proposal
 mode: default
 content:
   field_description:
-    weight: 7
+    weight: 2
     label: above
     settings: {  }
     third_party_settings: {  }
     type: basic_string
     region: content
   field_email:
-    weight: 5
+    weight: 4
     label: above
     settings: {  }
     third_party_settings: {  }
     type: basic_string
     region: content
   field_location:
-    weight: 3
+    weight: 6
     label: above
     settings:
       set_marker: '1'
@@ -90,13 +90,13 @@ content:
       map_provider_settings:
         height: 400px
         width: 100%
-        zoom: '10'
+        zoom: '15'
         map_features:
           leaflet_control_layer:
             weight: 0
             settings:
               position: topright
-              default_label: true
+              default_label: false
               tile_layer_providers:
                 OpenStreetMap:
                   'OpenStreetMap Mapnik':
@@ -503,6 +503,10 @@ content:
               settings:
                 label: Adresse
                 description: 'Enter an address to be localized.'
+                autocomplete_min_length: 1
+                location_priority:
+                  lat: null
+                  lng: null
             enabled: false
           leaflet_control_fullscreen:
             weight: 0
@@ -537,7 +541,7 @@ content:
     type: geolocation_map
     region: content
   field_name:
-    weight: 4
+    weight: 3
     label: above
     settings:
       link_to_entity: false
@@ -545,7 +549,7 @@ content:
     type: string
     region: content
   field_phone:
-    weight: 6
+    weight: 5
     label: above
     settings:
       link_to_entity: false
@@ -553,24 +557,20 @@ content:
     type: string
     region: content
   field_proposer:
-    weight: 1
+    weight: 0
     label: above
     settings: {  }
     third_party_settings: {  }
     type: list_default
     region: content
   field_proposer_details:
-    weight: 2
+    weight: 1
     label: above
     settings:
       link_to_entity: false
     third_party_settings: {  }
     type: string
     region: content
-  links:
-    weight: 0
-    region: content
-    settings: {  }
-    third_party_settings: {  }
 hidden:
   langcode: true
+  links: true
