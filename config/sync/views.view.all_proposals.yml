@@ -9,6 +9,7 @@ dependencies:
     - geolocation
     - node
     - user
+    - views_autorefresh_d8
 id: all_proposals
 label: 'Alle forslag'
 module: views
@@ -28,7 +29,7 @@ display:
         options:
           perm: 'access content'
       cache:
-        type: tag
+        type: none
         options: {  }
       query:
         type: views_query
@@ -708,12 +709,23 @@ display:
             label: ''
           granularity: second
       title: 'Alle forslag'
-      header: {  }
+      header:
+        autorefresh:
+          id: autorefresh
+          table: views
+          field: autorefresh
+          relationship: none
+          group_type: group
+          admin_label: ''
+          empty: false
+          interval: '30000'
+          plugin_id: views_autorefresh_area
       footer: {  }
       empty: {  }
       relationships: {  }
       arguments: {  }
       display_extenders: {  }
+      use_ajax: true
     cache_metadata:
       max-age: -1
       contexts:

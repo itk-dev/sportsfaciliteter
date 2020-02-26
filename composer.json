@@ -25,6 +25,7 @@
         "drupal/core-recommended": "^8.8",
         "drupal/field_permissions": "^1.0",
         "drupal/geolocation": "^3.0",
+        "drupal/views_autorefresh_d8": "^1.2",
         "drush/drush": "^10.2"
     },
     "require-dev": {
