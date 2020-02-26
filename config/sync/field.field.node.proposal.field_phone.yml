@@ -9,7 +9,7 @@ id: node.proposal.field_phone
 field_name: field_phone
 entity_type: node
 bundle: proposal
-label: 'Dit telefonnummer'
+label: 'Dit telefonnummer (bliver ikke offentliggjort)'
 description: ''
 required: false
 translatable: false

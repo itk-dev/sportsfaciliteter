@@ -9,7 +9,7 @@ id: node.proposal.field_name
 field_name: field_name
 entity_type: node
 bundle: proposal
-label: 'Dit navn'
+label: 'Dit navn (bliver ikke offentliggjort)'
 description: ''
 required: true
 translatable: false

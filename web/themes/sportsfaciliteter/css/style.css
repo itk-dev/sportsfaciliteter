@@ -123,3 +123,7 @@ a:hover {
 .footer .logo {
     float: none !important;
 }
+
+.footer .logo img {
+  max-width: 100%;
+}
