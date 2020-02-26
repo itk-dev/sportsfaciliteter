@@ -1,4 +1,4 @@
-/**
+-/**
  * If using a CSS pre-processor, tell it to overwrite this file. If not, place
  * your custom CSS modifications here.
  */
@@ -103,4 +103,8 @@ a:hover {
 .geolocation-map-control input.form-autocomplete,
 .geolocation-map-control input {
   box-sizing: border-box;
+}
+
+.table-all-proposals {
+  margin-top: 10px;
 }
