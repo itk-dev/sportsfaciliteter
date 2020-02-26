@@ -1,0 +1,23 @@
+uuid: ff1b0164-2435-46f3-9dd2-a2ca30af777e
+langcode: da
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_consent
+    - node.type.proposal
+id: node.proposal.field_consent
+field_name: field_consent
+entity_type: node
+bundle: proposal
+label: 'Ja, jeg giver samtykke'
+description: 'GDPR samtykke bla. bla. bla. bla.'
+required: true
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'Ja, jeg giver samtykke'
+  off_label: 'Nej, jeg giver ikke samtykke'
+field_type: boolean

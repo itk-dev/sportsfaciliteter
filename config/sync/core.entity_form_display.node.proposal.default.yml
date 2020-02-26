@@ -3,6 +3,7 @@ langcode: da
 status: true
 dependencies:
   config:
+    - field.field.node.proposal.field_consent
     - field.field.node.proposal.field_description
     - field.field.node.proposal.field_email
     - field.field.node.proposal.field_location
@@ -18,6 +19,13 @@ targetEntityType: node
 bundle: proposal
 mode: default
 content:
+  field_consent:
+    weight: 26
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    type: boolean_checkbox
+    region: content
   field_description:
     weight: 1
     settings:
