@@ -42,7 +42,7 @@ body {
 }
 
 .navbar-default .navbar-nav {
-  margin-top: 12px;
+    margin-top: 10px;
   margin-left: 40px;
 }
 
@@ -77,6 +77,11 @@ body {
   transition: var(--transition-border-in);
 }
 
+.navbar-default .name {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 .navbar-default .logo {
   width: 280px;
 }
@@ -105,6 +110,16 @@ a:hover {
   box-sizing: border-box;
 }
 
+/* View table */
 .table-all-proposals {
   margin-top: 10px;
+}
+
+/* Footer center logos */
+.footer {
+    text-align: center;
+}
+
+.footer .logo {
+    float: none !important;
 }
