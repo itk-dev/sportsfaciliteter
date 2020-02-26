@@ -20,7 +20,7 @@ bundle: proposal
 mode: default
 content:
   field_consent:
-    weight: 26
+    weight: 9
     settings:
       display_label: true
     third_party_settings: {  }
@@ -439,10 +439,10 @@ content:
           leaflet_max_bounds:
             weight: 0
             settings:
-              north: null
-              south: null
-              east: null
-              west: null
+              north: 56.331337
+              south: 55.995579
+              east: 56.141297
+              west: 56.143719
             enabled: false
           leaflet_marker_zoom_and_animate:
             weight: 0

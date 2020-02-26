@@ -13,6 +13,7 @@ permissions:
   - 'access content'
   - 'access site-wide contact form'
   - 'create field_consent'
+  - 'create field_consent_text'
   - 'create field_email'
   - 'create field_name'
   - 'create field_phone'
