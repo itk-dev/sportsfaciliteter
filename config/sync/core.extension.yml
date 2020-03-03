@@ -12,6 +12,7 @@ module:
   config: 0
   contact: 0
   contextual: 0
+  csv_serialization: 0
   datetime: 0
   dblog: 0
   dynamic_page_cache: 0
@@ -40,7 +41,9 @@ module:
   path_alias: 0
   quickedit: 0
   rdf: 0
+  rest: 0
   search: 0
+  serialization: 0
   shortcut: 0
   system: 0
   taxonomy: 0
@@ -52,6 +55,7 @@ module:
   video_embed_field: 0
   views_autorefresh_d8: 0
   views_ui: 0
+  xls_serialization: 0
   menu_link_content: 1
   views: 10
   standard: 1000

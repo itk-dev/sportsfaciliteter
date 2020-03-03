@@ -23,10 +23,12 @@
         "drupal/conditional_fields": "^1.0",
         "drupal/core-composer-scaffold": "^8.8",
         "drupal/core-recommended": "^8.8",
+        "drupal/csv_serialization": "^1.4",
         "drupal/field_permissions": "^1.0",
         "drupal/geolocation": "^3.0",
         "drupal/video_embed_field": "^2.2",
         "drupal/views_autorefresh_d8": "^1.2",
+        "drupal/xls_serialization": "^1.1",
         "drush/drush": "^10.2"
     },
     "require-dev": {
