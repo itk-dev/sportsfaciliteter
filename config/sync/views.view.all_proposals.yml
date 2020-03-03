@@ -13,6 +13,8 @@ dependencies:
     - field.storage.node.field_proposer_details
     - node.type.proposal
     - system.menu.main
+    - user.role.administrator
+    - user.role.authenticated
   module:
     - geolocation
     - node
@@ -1624,11 +1626,18 @@ display:
         fields: false
         filters: true
         filter_groups: true
+        access: false
       pager:
         type: some
         options:
           items_per_page: 0
           offset: 0
+      access:
+        type: role
+        options:
+          role:
+            authenticated: authenticated
+            administrator: administrator
     cache_metadata:
       max-age: -1
       contexts:
@@ -1636,7 +1645,7 @@ display:
         - 'languages:language_interface'
         - request_format
         - 'user.node_grants:view'
-        - user.permissions
+        - user.roles
       tags:
         - 'config:field.storage.node.field_consent'
         - 'config:field.storage.node.field_description'
