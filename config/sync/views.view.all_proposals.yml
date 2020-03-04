@@ -13,8 +13,6 @@ dependencies:
     - field.storage.node.field_proposer_details
     - node.type.proposal
     - system.menu.main
-    - user.role.administrator
-    - user.role.authenticated
   module:
     - geolocation
     - node
@@ -776,6 +774,11 @@ display:
           empty: false
           interval: '500000'
           plugin_id: views_autorefresh_area
+        result:
+          id: result
+          table: views
+          field: result
+          plugin_id: result
       footer: {  }
       empty: {  }
       relationships: {  }
@@ -836,6 +839,7 @@ display:
         style: false
         row: false
         fields: false
+        header: false
       row:
         type: fields
         options:
@@ -980,7 +984,7 @@ display:
       pager:
         type: full
         options:
-          items_per_page: 10
+          items_per_page: 0
           offset: 0
           id: 0
           total_pages: null
@@ -998,6 +1002,27 @@ display:
             offset: false
             offset_label: Forskydning
           quantity: 9
+      header:
+        autorefresh:
+          id: autorefresh
+          table: views
+          field: autorefresh
+          relationship: none
+          group_type: group
+          admin_label: ''
+          empty: false
+          interval: '500000'
+          plugin_id: views_autorefresh_area
+        result:
+          id: result
+          table: views
+          field: result
+          relationship: none
+          group_type: group
+          admin_label: ''
+          empty: false
+          content: 'Antal forslag: @total'
+          plugin_id: result
     cache_metadata:
       max-age: -1
       contexts:
@@ -1633,11 +1658,8 @@ display:
           items_per_page: 0
           offset: 0
       access:
-        type: role
-        options:
-          role:
-            authenticated: authenticated
-            administrator: administrator
+        type: none
+        options: {  }
     cache_metadata:
       max-age: -1
       contexts:
@@ -1645,7 +1667,6 @@ display:
         - 'languages:language_interface'
         - request_format
         - 'user.node_grants:view'
-        - user.roles
       tags:
         - 'config:field.storage.node.field_consent'
         - 'config:field.storage.node.field_description'
