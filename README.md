@@ -6,15 +6,15 @@ Run the docker container
 
 `docker-compose up -d`
 
-Install requiered packages
+Install required packages
 
 `docker-compose composer install`
 
-Import drupal configutation
+Import drupal configuration
 
 `docker-compose vendor/bin/drush config-import`
 
-Export drupal configutation
+Export drupal configuration
 
 `docker-compose vendor/bin/drush config-export`
 
